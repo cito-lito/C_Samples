@@ -3,9 +3,6 @@
 #include <stdlib.h>
 #include "ggt.h"
 
-
-int ggtCalls;
-
 int main(void) {	
 	int a, b;
 	printf("----Welcome to the GDC calculator----\n");

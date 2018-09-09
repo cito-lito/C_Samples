@@ -3,15 +3,14 @@
 #include <stdio.h>
 #include "ggt.h"
 
-
-int ggtCalls;
+int ggtCalls = 0;
 
 int ggt(int a, int b)
 {
 	ggtCalls++;
 	if (ggtCalls >= MAX_ITERATIONS){
-		printf("num of oterations not allowed");
-		return 0;
+		printf("num of Iterations required not allowed > %i\n", MAX_ITERATIONS);
+		return -1;
 	}
 
 	while (a > 0 && b > 0){
@@ -24,6 +23,6 @@ int ggt(int a, int b)
 		}
 
 	}
-	printf("invalid numbers!!!");
-	return 0;
+	printf("invalid numbers!!!\n");
+	return -1;
 }
