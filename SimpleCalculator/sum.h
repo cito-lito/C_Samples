@@ -1,3 +1,0 @@
-
-
-double sum(double nums[]);
