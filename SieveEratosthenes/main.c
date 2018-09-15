@@ -3,7 +3,6 @@
 #include <stdbool.h>
 #include"sieve.h"
 
-
 int main(void) {
 
 	int N;
