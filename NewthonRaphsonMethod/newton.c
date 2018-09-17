@@ -14,7 +14,7 @@ double df(double x)
   return 3*x*x-1;    //F'(x)
 }
 
-double newton ( double x )
+double newton (double x)
 {
 	printf("n:\tx:\n");
 	  double x1;
