@@ -12,9 +12,14 @@ Beispiel:
 Algorithmus:
 
 Xo eingeben
+
 X1 = Xo
+
 ist F´(x) null? 
+
 ja-→ stop das Programm (mit Rückgabe null)
+
 nein-→ Xo = X1 – F(x) / F´(x)
+
 wiederhole solange (Xo – X1) größer gleich 0.000001(Genauigkeit).
 
