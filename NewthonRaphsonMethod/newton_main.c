@@ -2,7 +2,7 @@
 #include "newton.h"
 #include<stdio.h>
 
-int main()
+int main(void)
 {
 	double x;
 (	printf("\nWelcome! we are going to calculate the root of an equation\n");
