@@ -1,5 +1,4 @@
 
-
 #include "sieve.h"
 #include<stdbool.h>
 
