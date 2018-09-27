@@ -6,7 +6,7 @@ It is named after the ancient Greek mathematician Euclid,
 who first described it in his Elements (c. 300 BC)..."
 
 
--This is an Example of the implementation of the Euclidian Algorithm:
+-This is an Example of the implementation of the Euclidian Algorithm using recursion:
 
 – if a = b, then GDC(a, b) = a.
 – if a < b, then GDC(a, b − a).
