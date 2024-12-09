@@ -1,2 +1,2 @@
 # C_Samples
-for more info read the readme file inside of every sample project
+for more info check the readme file inside of every sample project
